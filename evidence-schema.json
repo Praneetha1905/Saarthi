@@ -1,0 +1,28 @@
+{
+  "evidenceTypes": {
+    "FACT": {
+      "label": "Fact from Entrepreneur",
+      "description": "Information directly provided by the entrepreneur"
+    },
+    "VERIFIED": {
+      "label": "Verified External Information",
+      "description": "Information confirmed from a reliable external source"
+    },
+    "ASSUMPTION": {
+      "label": "Assumption",
+      "description": "Information currently assumed but not proven"
+    },
+    "CALCULATION": {
+      "label": "Calculation",
+      "description": "Value calculated from supplied inputs"
+    },
+    "MISSING": {
+      "label": "Missing Evidence",
+      "description": "Important information that has not yet been collected"
+    },
+    "AI_REASONING": {
+      "label": "AI Reasoning",
+      "description": "Reasoning derived from available evidence and assumptions"
+    }
+  }
+}
