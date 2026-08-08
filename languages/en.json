@@ -1,0 +1,17 @@
+{
+  "landing": {
+    "headline": "Your skill is real. But is the business ready?",
+    "start": "Start My Venture Journey",
+    "demo": "Experience Lakshmi's Journey"
+  },
+  "questions": {
+    "customer": "Who should I sell to?",
+    "demand": "Will they actually pay?",
+    "cost": "What does one sale really cost?",
+    "price": "What price should I test?",
+    "market": "Where should I sell?",
+    "risk": "What could go wrong?",
+    "missing": "What don't we know yet?",
+    "decision": "What should I do next?"
+  }
+}
