@@ -1,0 +1,31 @@
+{
+  "entrepreneur": {},
+  "business": {},
+  "priorityCustomer": "",
+  "customerProblem": "",
+  "evidenceCollected": [],
+  "assumptions": [],
+  "missingEvidence": [],
+  "unitEconomics": {
+    "costPerUnit": null,
+    "sellingPrice": null,
+    "contributionPerUnit": null,
+    "marginPercentage": null,
+    "breakEvenUnits": null
+  },
+  "routeToMarket": {
+    "recommendedChannel": "",
+    "backupChannel": ""
+  },
+  "topRisks": [],
+  "decision": "",
+  "evidenceConfidence": null,
+  "reason": "",
+  "nextBestAction": "",
+  "actionPlan30Days": {
+    "week1": [],
+    "week2": [],
+    "week3": [],
+    "week4": []
+  }
+}
