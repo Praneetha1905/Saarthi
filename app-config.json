@@ -1,0 +1,26 @@
+{
+  "app": {
+    "name": "SAARTHI",
+    "fullName": "SAARTHI - Rural Venture Decision Navigator",
+    "tagline": "Don't just start. Know what to test next.",
+    "philosophy": "Evidence before investment",
+    "version": "1.0.0"
+  },
+  "platform": {
+    "name": "AWS PartyRock",
+    "poweredBy": "Amazon Bedrock"
+  },
+  "languages": [
+    "English",
+    "Telugu",
+    "Hindi"
+  ],
+  "finalDecisions": [
+    "PROCEED",
+    "PILOT",
+    "MODIFY",
+    "COLLABORATE",
+    "TEST_FURTHER",
+    "PAUSE"
+  ]
+}
