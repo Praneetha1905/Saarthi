@@ -1,0 +1,25 @@
+{
+  "formulas": {
+    "variableCostPerUnit": {
+      "formula": "rawMaterials + labour + packaging + transport + storage + spoilage + commission + otherCosts"
+    },
+    "contributionPerUnit": {
+      "formula": "sellingPrice - variableCostPerUnit"
+    },
+    "contributionMarginPercentage": {
+      "formula": "(contributionPerUnit / sellingPrice) * 100"
+    },
+    "breakEvenUnits": {
+      "formula": "fixedCosts / contributionPerUnit",
+      "requires": [
+        "fixedCosts",
+        "contributionPerUnit"
+      ]
+    }
+  },
+  "rules": {
+    "neverTreatLabourAsFree": true,
+    "neverInventMissingCosts": true,
+    "showFormulaToUser": true
+  }
+}
