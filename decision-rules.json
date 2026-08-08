@@ -1,0 +1,30 @@
+{
+  "decisions": {
+    "PROCEED": {
+      "description": "Sufficient evidence supports a limited launch",
+      "requiresStrongEvidence": true
+    },
+    "PILOT": {
+      "description": "The opportunity appears promising but requires a controlled market test"
+    },
+    "MODIFY": {
+      "description": "Product, price, customer or channel needs adjustment"
+    },
+    "COLLABORATE": {
+      "description": "A partner, SHG, cooperative or group materially improves feasibility"
+    },
+    "TEST_FURTHER": {
+      "description": "Critical evidence is still missing"
+    },
+    "PAUSE": {
+      "description": "Current evidence suggests the model is unlikely to be viable"
+    }
+  },
+  "principles": {
+    "neverDefaultToProceed": true,
+    "preferSmallTestsWhenEvidenceIsWeak": true,
+    "negativeEconomicsCanTriggerModifyOrPause": true,
+    "missingCriticalEvidenceCanTriggerTestFurther": true,
+    "partnershipAdvantageCanTriggerCollaborate": true
+  }
+}
