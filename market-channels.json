@@ -1,0 +1,40 @@
+{
+  "channels": [
+    {
+      "id": "village",
+      "name": "Village Sales"
+    },
+    {
+      "id": "nearby_town",
+      "name": "Nearby Town"
+    },
+    {
+      "id": "retailer",
+      "name": "Local Retailer"
+    },
+    {
+      "id": "shg",
+      "name": "Self Help Group"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp / Social Commerce"
+    },
+    {
+      "id": "online",
+      "name": "Online Marketplace"
+    }
+  ],
+  "evaluationFactors": [
+    "margin",
+    "volume",
+    "transport",
+    "paymentDelay",
+    "commission",
+    "digitalRequirement",
+    "customerAcquisitionEffort",
+    "intermediaryDependence",
+    "workingCapitalRequirement",
+    "evidenceAvailable"
+  ]
+}
