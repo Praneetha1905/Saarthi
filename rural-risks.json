@@ -1,0 +1,22 @@
+{
+  "risks": [
+    "Demand Uncertainty",
+    "Seasonal Demand",
+    "Transport Disruption",
+    "Raw Material Price Increase",
+    "Spoilage",
+    "Packaging Failure",
+    "Credit Sales",
+    "Retailer Payment Delay",
+    "Working Capital Shortage",
+    "Production Capacity",
+    "Family Time Constraints",
+    "Digital Limitations",
+    "Dependence On One Buyer"
+  ],
+  "levels": [
+    "LOW",
+    "MEDIUM",
+    "HIGH"
+  ]
+}
