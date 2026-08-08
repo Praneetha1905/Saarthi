@@ -1,0 +1,43 @@
+{
+  "scenarios": [
+    {
+      "id": "transport_increase",
+      "name": "Transport Cost Increase",
+      "variable": "transportCost",
+      "currentValue": 2,
+      "newValue": 7,
+      "recalculate": [
+        "variableCost",
+        "contribution",
+        "margin",
+        "channelScore",
+        "risk",
+        "decision"
+      ]
+    },
+    {
+      "id": "demand_drop",
+      "name": "Demand Drops 20%",
+      "variable": "monthlySales",
+      "changePercentage": -20,
+      "recalculate": [
+        "monthlyContribution",
+        "breakEvenFeasibility",
+        "risk",
+        "decision"
+      ]
+    },
+    {
+      "id": "spoilage_increase",
+      "name": "Spoilage Increases",
+      "variable": "spoilagePercentage",
+      "currentValue": 5,
+      "newValue": 12,
+      "recalculate": [
+        "cost",
+        "margin",
+        "risk"
+      ]
+    }
+  ]
+}
